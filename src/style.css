@@ -3,8 +3,29 @@ body {
 }
 
 .board {
-
+  position: relative;
+  display: inline-block;
+  border: 2px solid #333333;
+  width: calc(60px * 10);
+  height: calc(60px * 10);
 }
 
+#invert-color-button {
+  position: absolute;
+  display: inline-block;
+  top: calc(60px * 10 / 2);
+  /*top: 0px;*/
+  transform: translateY(-50%);
+}
+
+.cell {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #333333;
+}
 
 /* additional styles go here */
