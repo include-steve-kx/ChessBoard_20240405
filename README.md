@@ -1,0 +1,2 @@
+# Small design choice
+When someone clicks on "invert color" button, it would automatically un-highlight the highlighted cells and invert the black / white colors. The reason behind this is that, otherwise, once someone clicks on some cells, there is always some highlighted cells in the grid. The "invert color" button sort of also works as a "clear highlights" button. Another approach is to un-highlight everything when clicked outside the grid.
